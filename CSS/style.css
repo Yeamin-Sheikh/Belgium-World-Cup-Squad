@@ -19,7 +19,7 @@
         white, 
         rgba(136, 135, 135, 0.829)
     );
-    animation: bg-animation 10s ease-in-out infinite;
+    /* animation: bg-animation 10s ease-in-out infinite; */
 }
 
 @keyframes bg-animation {
