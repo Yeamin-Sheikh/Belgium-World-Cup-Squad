@@ -1,12 +1,14 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-gradiant {
     background-size: 400%;
-    background-image: linear-gradient(
-        45deg, 
-        #f73e3b, 
-        orange, 
-        #f73e3b, 
-        #f7f020
-    );
+    background-image: linear-gradient(45deg,
+            #f73e3b,
+            orange,
+            #f73e3b,
+            #f7f020);
     animation: bg-animation 10s ease-in-out infinite;
 }
 
@@ -15,31 +17,18 @@ body {
     padding-top: 55px;
 }
 
-/* .p-bg-gradiant {
-    background-size: 400%;
-    background-image: linear-gradient(
-        45deg, 
-        white, 
-        rgb(177, 177, 177), 
-        white, 
-        rgba(136, 135, 135, 0.829)
-    );
-} */
-
 .carousel-position {
     max-height: 600px;
 }
 
 .card {
     background-size: 400%;
-    background-image: linear-gradient(
-        45deg, 
-        white, 
-        rgb(177, 177, 177), 
-        white, 
-        rgba(136, 135, 135, 0.829)
-        );
-        transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(45deg,
+            white,
+            rgb(177, 177, 177),
+            white,
+            rgba(136, 135, 135, 0.829));
+    transition: all 0.3s ease-in-out;
 }
 
 .card:hover {
@@ -51,9 +40,11 @@ body {
     0% {
         background-position: 0% 50%;
     }
+
     50% {
         background-position: 100% 50%;
     }
+
     100% {
         background-position: 0% 50%;
     }
